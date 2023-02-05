@@ -1,0 +1,131 @@
+:root {
+    --color1: #645CAA;
+}
+:root{
+    --сolor2: #A084CA;
+}
+:root{
+    --сolor3: #BFACE0;
+}
+:root{
+    --сolor4: #EBC7E8;
+}
+
+body.login_servlet {
+    font-family: Tahoma, Arial, serif;
+    color: white;
+}
+
+.login_servlet .main_area {
+    margin: 10% auto auto;
+}
+
+.main_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.login_servlet .title {
+    display: block;
+    color: var(--color1);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login_servlet .sub-title {
+    text-align: center;
+    display: block;
+    color: var(--сolor2);
+    font-size: 16px;
+}
+
+.login_servlet .form-title {
+    text-align: center;
+    display: block;
+    color: var(--color1);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.login_servlet .splitter1 {
+    display: block;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login_servlet .splitter2 {
+    display: block;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login_servlet .forms{
+    background-color: #f8f8f8;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login_servlet .button  {
+    border-style: none;
+    border-width: 0;
+    background-color: var(--color1);
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+    padding: 11px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.login_servlet .button:hover {
+    box-shadow: 0px 0px 4px #43314d;
+}
+
+.login_servlet .button:disabled  {
+    background-color: #c5c5c5;
+}
+
+.login_servlet .input-frame {
+    white-space: nowrap;
+    display: flex;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.login_servlet .input-frame .input  {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c6c5c5;
+    border-radius: 5px;
+    flex: 1;
+    padding: 12px;
+}
+
+.login_servlet .tools {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_servlet .tools .tool{
+    color: var(--сolor2);
+    font-size: 14px;
+}
+
+.login_servlet .idp-join{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

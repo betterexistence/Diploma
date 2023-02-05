@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+:root {
+    --color1: #645CAA;
+}
+:root{
+    --сolor2: #A084CA;
+}
+:root{
+    --сolor3: #BFACE0;
+}
+:root{
+    --сolor4: #EBC7E8;
+}
+
+.nav-menu{
+    padding-top: 10px;
+    height: 90vh;
+    background: var(--color1);
+}
+
+.nav-search{
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline:none;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 93%;
+
+    color: #EBC7E8;
+
+    background: var(--color1);
+    border: 3px solid #EBC7E8;
+    border-radius: 5px;
+}
+
+.nav-search:focus {
+    border: 3px solid #eee;
+    color: #eee;
+}
+
+p{
+    color: #eee;
+}
+
+.container {
+    position: relative;
+    display: block;
+}
+
+details {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    max-height: 2.5em !important;
+    transition: all 0.1s ease;
+}
+details ::-webkit-details-marker {
+    display: none;
+}
+details > summary {
+    position: relative;
+    margin-top: 0.25em;
+    color: #eee;
+    padding: 0.1em 0.5em 0.2em;
+    background: var(--color1);
+}
+
+details > summary:before {
+    color: #eee;
+    font-size: 0.5em;
+    margin-right: 0.6em;
+}
+details[open] > summary {
+    background: var(--color1);
+    color: #eee;
+}
+details[open] > summary:before {
+    color: #eee;
+}
+
+.folder {
+    margin: 0 0 0.5em 0.86em;
+    padding: 0.5em 0em 0.5em 1.5em;
+}
+.folder p {
+    margin: 0;
+}
+
+.folder p:hover{
+    background: var(--сolor4);
+}
+
+details[open] {
+    height: auto;
+    max-height: 99em !important;
+    transition: all 1.2s ease;
+}
+
+details:not([open]) .folder {
+    height: 0px !important;
+}
+
+summary:hover{
+    background: var(--сolor4);
+}

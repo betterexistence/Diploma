@@ -1,0 +1,1009 @@
+2023-01-27 00:00:39,453 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 107) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 00:00:39,506 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:00:39,507 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 115) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6642d5c8
+2023-01-27 00:00:39,510 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:00:39,522 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 115) Stopping cache manager null on null
+2023-01-27 00:00:39,541 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 93ms
+2023-01-27 00:00:39,581 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:00:39,691 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:00:40,145 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 00:00:40,181 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 00:00:40,197 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 112) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:00:40,197 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 112) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 00:00:40,229 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 00:00:40,289 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 00:00:40,360 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 112) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:00:40,362 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 112) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 00:00:40,381 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 112) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 00:00:40,382 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 112) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@68c4f286
+2023-01-27 00:00:40,384 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 112) Envers integration enabled? : true
+2023-01-27 00:00:40,479 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 00:00:40,574 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 1) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 00:00:40,615 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 115) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 00:00:40,659 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 00:04:18,822 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 116) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 00:04:18,881 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:04:18,881 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 115) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@7814b1e9
+2023-01-27 00:04:18,883 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:04:18,906 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 115) Stopping cache manager null on null
+2023-01-27 00:04:18,936 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 145ms
+2023-01-27 00:04:18,977 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:04:19,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:04:19,686 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 00:04:19,765 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:04:19,766 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 115) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 00:04:19,770 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 00:04:19,815 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 00:04:19,864 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 00:04:19,946 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:04:19,947 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 115) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 00:04:19,967 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 115) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 00:04:19,967 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 115) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@68c4f286
+2023-01-27 00:04:19,969 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 115) Envers integration enabled? : true
+2023-01-27 00:04:20,060 INFO  [io.smallrye.metrics] (MSC service thread 1-2) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 00:04:20,198 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 3) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 00:04:20,267 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 118) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 00:04:20,310 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 00:05:16,426 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 115) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 00:05:16,453 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 123) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:05:16,454 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 123) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6f3af481
+2023-01-27 00:05:16,475 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 123) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:05:16,483 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 123) Stopping cache manager null on null
+2023-01-27 00:05:16,502 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 78ms
+2023-01-27 00:05:16,542 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:05:16,628 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:05:17,078 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 00:05:17,120 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 00:05:17,130 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 125) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:05:17,130 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 125) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 00:05:17,167 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 00:05:17,204 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 00:05:17,282 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 125) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:05:17,284 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 125) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 00:05:17,304 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 125) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 00:05:17,305 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 125) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@68c4f286
+2023-01-27 00:05:17,307 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 125) Envers integration enabled? : true
+2023-01-27 00:05:17,403 INFO  [io.smallrye.metrics] (MSC service thread 1-5) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 00:05:17,485 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 4) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 00:05:17,523 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 127) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 00:05:17,563 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 00:13:24,924 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 129) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 00:13:24,948 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 134) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:13:24,949 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 134) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@11e63536
+2023-01-27 00:13:24,953 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 134) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:13:24,961 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 134) Stopping cache manager null on null
+2023-01-27 00:13:24,977 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 55ms
+2023-01-27 00:13:25,014 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:13:25,102 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:13:25,642 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 00:13:25,679 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 00:13:25,687 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 135) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:13:25,687 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 135) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 00:13:25,715 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 00:13:25,758 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 00:13:25,825 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 135) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:13:25,826 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 135) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 00:13:25,846 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 135) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 00:13:25,847 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 135) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@68c4f286
+2023-01-27 00:13:25,849 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 135) Envers integration enabled? : true
+2023-01-27 00:13:25,954 INFO  [io.smallrye.metrics] (MSC service thread 1-2) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 00:13:26,035 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 3) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 00:13:26,083 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 135) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 00:13:26,142 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 00:15:50,894 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 136) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 00:15:50,921 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 140) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:15:50,921 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 140) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@7b4cf348
+2023-01-27 00:15:50,925 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 140) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:15:50,938 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 140) Stopping cache manager null on null
+2023-01-27 00:15:50,963 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 71ms
+2023-01-27 00:15:51,052 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:15:51,203 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:15:51,702 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 00:15:51,745 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 00:15:51,755 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:15:51,756 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 141) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 00:15:51,784 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 00:15:51,828 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 00:15:51,904 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:15:51,905 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 141) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 00:15:51,926 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 141) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 00:15:51,926 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 141) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@68c4f286
+2023-01-27 00:15:51,928 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 141) Envers integration enabled? : true
+2023-01-27 00:15:52,015 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 00:15:52,076 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 2) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 00:15:52,117 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 140) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 00:15:52,158 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 00:16:29,405 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 141) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 00:16:29,422 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 146) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:16:29,423 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 146) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@49774cd2
+2023-01-27 00:16:29,424 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 146) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:16:29,429 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 146) Stopping cache manager null on null
+2023-01-27 00:16:29,449 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 45ms
+2023-01-27 00:16:29,492 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:16:29,599 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:16:29,998 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 00:16:30,045 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 00:16:30,059 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 147) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:16:30,060 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 147) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 00:16:30,090 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 00:16:30,139 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 00:16:30,220 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 147) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:16:30,221 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 147) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 00:16:30,243 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 147) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 00:16:30,244 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 147) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@68c4f286
+2023-01-27 00:16:30,246 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 147) Envers integration enabled? : true
+2023-01-27 00:16:30,343 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 00:16:30,419 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 9) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 00:16:30,476 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 144) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 00:16:30,518 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 00:18:20,773 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 150) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 00:18:20,803 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 155) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:18:20,804 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 155) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@7e63a7c2
+2023-01-27 00:18:20,805 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 155) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:18:20,821 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 155) Stopping cache manager null on null
+2023-01-27 00:18:20,840 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 72ms
+2023-01-27 00:18:20,894 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:18:21,001 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 00:18:21,403 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 00:18:21,432 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 00:18:21,438 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 153) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:18:21,438 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 153) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 00:18:21,479 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 00:18:21,524 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 00:18:21,586 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 153) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:18:21,587 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 153) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 00:18:21,608 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 153) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 00:18:21,609 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 153) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@68c4f286
+2023-01-27 00:18:21,611 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 153) Envers integration enabled? : true
+2023-01-27 00:18:21,705 INFO  [io.smallrye.metrics] (MSC service thread 1-1) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 00:18:21,767 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 2) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 00:18:21,802 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 155) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 00:18:21,841 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 00:19:29,839 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspending server
+2023-01-27 00:19:29,842 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: EJB subsystem suspension complete
+2023-01-27 00:19:29,848 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-01-27 00:19:29,858 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 153) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 00:19:29,890 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-01-27 00:19:29,902 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2023-01-27 00:19:29,910 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-01-27 00:19:29,910 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 159) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:19:29,913 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 159) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@7770ddd3
+2023-01-27 00:19:29,914 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 159) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 00:19:29,918 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/PostgresDS]
+2023-01-27 00:19:29,919 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 159) Stopping cache manager null on null
+2023-01-27 00:19:29,923 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-01-27 00:19:29,934 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-42.5.1.jar
+2023-01-27 00:19:29,945 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-01-27 00:19:29,947 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-01-27 00:19:29,954 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment postgresql-42.5.1.jar (runtime-name: postgresql-42.5.1.jar) in 91ms
+2023-01-27 00:19:29,955 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2023-01-27 00:19:29,955 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-01-27 00:19:29,956 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 162) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-01-27 00:19:29,958 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 2.2.2.Final stopping
+2023-01-27 00:19:29,959 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 97ms
+2023-01-27 00:19:29,964 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 156) Stopping cache manager null on null
+2023-01-27 00:19:29,981 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) stopped in 124ms
+2023-01-27 21:34:55,998 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
+2023-01-27 21:35:02,332 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2023-01-27 21:35:02,360 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-01-27 21:35:02,650 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) starting
+2023-01-27 21:35:02,653 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1251
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = E:\Дипломный проект\wildfly-21.0.2.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\endorsed
+	java.ext.dirs = C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Users\User\.jdks\liberica-1.8.0_352\jre
+	java.io.tmpdir = C:\Users\User\AppData\Local\Temp\
+	java.library.path = C:\Users\User\.jdks\liberica-1.8.0_352\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;D:\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\.dotnet\tools;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;D:\AnyProgramms\IntelliJ IDEA 2022.3.1\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_352-b08
+	java.specification.maintenance.version = 4
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = BellSoft
+	java.vendor.url = https://bell-sw.com/
+	java.vendor.url.bug = https://bell-sw.com/support
+	java.version = 1.8.0_352
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = BellSoft
+	java.vm.version = 25.352-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = E:\Дипломный проект\wildfly-21.0.2.Final
+	jboss.host.name = desktop-ds2pjsv
+	jboss.modules.dir = E:\Дипломный проект\wildfly-21.0.2.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-ds2pjsv
+	jboss.qualified.host.name = desktop-ds2pjsv
+	jboss.server.base.dir = E:\Дипломный проект\wildfly-21.0.2.Final\standalone
+	jboss.server.config.dir = E:\Дипломный проект\wildfly-21.0.2.Final\standalone\configuration
+	jboss.server.data.dir = E:\Дипломный проект\wildfly-21.0.2.Final\standalone\data
+	jboss.server.deploy.dir = E:\Дипломный проект\wildfly-21.0.2.Final\standalone\data\content
+	jboss.server.log.dir = E:\Дипломный проект\wildfly-21.0.2.Final\standalone\log
+	jboss.server.name = desktop-ds2pjsv
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = E:\Дипломный проект\wildfly-21.0.2.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:E:\Дипломный проект\wildfly-21.0.2.Final\standalone\configuration/logging.properties
+	module.path = E:\Дипломный проект\wildfly-21.0.2.Final\modules
+	org.jboss.boot.log.file = E:\Дипломный проект\wildfly-21.0.2.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\resources.jar;C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\rt.jar;C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\sunrsasign.jar;C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\jsse.jar;C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\jce.jar;C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\charsets.jar;C:\Users\User\.jdks\liberica-1.8.0_352\jre\lib\jfr.jar;C:\Users\User\.jdks\liberica-1.8.0_352\jre\classes
+	sun.boot.library.path = C:\Users\User\.jdks\liberica-1.8.0_352\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = E:\Дипломный проект\wildfly-21.0.2.Final\jboss-modules.jar -mp E:\Дипломный проект\wildfly-21.0.2.Final\modules org.jboss.as.standalone -Djboss.home.dir=E:\Дипломный проект\wildfly-21.0.2.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1251
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = RU
+	user.dir = E:\Дипломный проект\wildfly-21.0.2.Final\bin
+	user.home = C:\Users\User
+	user.language = ru
+	user.name = User
+	user.script = 
+	user.timezone = Europe/Moscow
+	user.variant = 
+2023-01-27 21:35:02,655 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=E:\Дипломный проект\wildfly-21.0.2.Final\standalone\log\server.log -Dlogging.configuration=file:E:\Дипломный проект\wildfly-21.0.2.Final\standalone\configuration/logging.properties 
+2023-01-27 21:35:05,900 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.13.1.Final
+2023-01-27 21:35:12,361 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-01-27 21:35:12,428 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 35) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-01-27 21:35:12,688 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-01-27 21:35:12,811 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.2.Final
+2023-01-27 21:35:12,940 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.2.Final
+2023-01-27 21:35:13,000 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-01-27 21:35:13,008 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 63) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
+2023-01-27 21:35:13,010 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-01-27 21:35:13,011 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 61) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2023-01-27 21:35:13,012 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 72) WFLYSEC0002: Activating Security Subsystem
+2023-01-27 21:35:13,026 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) WFLYNAM0001: Activating Naming Subsystem
+2023-01-27 21:35:13,034 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 65) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-01-27 21:35:13,044 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 62) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2023-01-27 21:35:13,047 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
+2023-01-27 21:35:13,052 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
+2023-01-27 21:35:13,092 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2023-01-27 21:35:13,155 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-01-27 21:35:13,167 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-01-27 21:35:13,171 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-01-27 21:35:13,174 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2023-01-27 21:35:13,232 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-01-27 21:35:13,234 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 59) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2023-01-27 21:35:13,515 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 53) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-01-27 21:35:13,703 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.19.Final
+2023-01-27 21:35:13,890 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.2.2.Final starting
+2023-01-27 21:35:14,129 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 54) WFLYRS0016: RESTEasy version 3.13.2.Final
+2023-01-27 21:35:14,369 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-01-27 21:35:14,369 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-01-27 21:35:14,441 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2023-01-27 21:35:14,528 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'E:\Дипломный проект\wildfly-21.0.2.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-01-27 21:35:14,748 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2023-01-27 21:35:14,794 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2023-01-27 21:35:14,956 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-01-27 21:35:14,996 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-01-27 21:35:21,819 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-01-27 21:35:21,847 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore E:\Дипломный проект\wildfly-21.0.2.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-01-27 21:35:21,857 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory E:\Дипломный проект\wildfly-21.0.2.Final\standalone\deployments
+2023-01-27 21:35:21,884 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:35:21,884 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "postgresql-42.5.1.jar" (runtime-name: "postgresql-42.5.1.jar")
+2023-01-27 21:35:22,052 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-01-27 21:35:24,039 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.4.2.Final (Apache CXF 3.3.7) 
+2023-01-27 21:35:24,645 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:35:27,620 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.5)
+2023-01-27 21:35:27,932 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:35:28,061 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgresql-42.5.1.jar
+2023-01-27 21:35:28,068 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/PostgresDS]
+2023-01-27 21:35:29,048 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 6.0.21.Final
+2023-01-27 21:35:29,146 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
+2023-01-27 21:35:29,256 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:35:29,275 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-01-27 21:35:29,280 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-01-27 21:35:29,341 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:35:29,477 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:35:29,580 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-01-27 21:35:29,633 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 80) HHH000412: Hibernate Core {5.3.20.Final}
+2023-01-27 21:35:29,636 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 80) HHH000206: hibernate.properties not found
+2023-01-27 21:35:29,811 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:35:30,186 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-01-27 21:35:30,257 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 3.1.5 (Final)
+2023-01-27 21:35:30,420 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 80) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-01-27 21:35:30,831 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:35:31,896 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:35:32,208 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 80) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:35:32,217 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 80) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:35:32,250 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2023-01-27 21:35:34,097 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:35:34,856 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 8) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:35:35,472 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:35:35,979 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:35:35,979 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "postgresql-42.5.1.jar" (runtime-name : "postgresql-42.5.1.jar")
+2023-01-27 21:35:36,087 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-01-27 21:35:36,092 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) started in 51016ms - Started 560 of 765 services (379 services are lazy, passive or on-demand)
+2023-01-27 21:35:36,097 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-01-27 21:35:36,097 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-01-27 21:35:36,361 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:35:36,415 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 21) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:35:36,418 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 21) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@3140c161
+2023-01-27 21:35:36,424 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 21) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:35:36,535 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 21) Stopping cache manager null on null
+2023-01-27 21:35:36,554 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 223ms
+2023-01-27 21:35:36,669 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:35:36,776 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:35:37,101 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:35:37,155 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:35:37,180 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 18) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:35:37,180 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 18) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:35:37,207 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:35:37,281 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:35:37,391 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 18) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:35:37,394 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 18) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:35:37,436 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 18) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:35:37,437 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 18) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:35:37,440 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 18) Envers integration enabled? : true
+2023-01-27 21:35:37,571 INFO  [io.smallrye.metrics] (MSC service thread 1-3) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:35:37,776 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 7) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:35:37,842 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 30) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:35:37,880 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:38:21,955 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:38:21,990 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 92) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:38:21,992 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 92) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@1439fb84
+2023-01-27 21:38:21,993 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 92) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:38:22,028 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 92) Stopping cache manager null on null
+2023-01-27 21:38:22,047 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 96ms
+2023-01-27 21:38:22,100 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:38:22,245 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:38:22,741 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:38:22,775 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:38:22,792 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:38:22,793 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 89) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:38:22,819 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:38:22,869 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:38:22,958 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:38:22,960 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 89) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:38:23,035 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 89) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:38:23,035 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 89) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:38:23,038 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 89) Envers integration enabled? : true
+2023-01-27 21:38:23,144 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:38:23,269 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 2) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:38:23,315 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:38:23,355 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:40:19,020 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:40:19,054 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:40:19,059 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 98) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@58d483d6
+2023-01-27 21:40:19,065 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:40:19,086 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 98) Stopping cache manager null on null
+2023-01-27 21:40:19,116 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 106ms
+2023-01-27 21:40:19,164 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:40:19,282 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:40:19,870 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:40:19,930 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:40:19,967 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:40:19,967 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 101) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:40:19,985 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:40:20,038 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:40:20,128 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:40:20,130 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 101) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:40:20,159 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 101) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:40:20,160 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 101) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:40:20,163 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 101) Envers integration enabled? : true
+2023-01-27 21:40:20,299 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:40:20,470 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 5) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:40:20,538 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 95) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:40:20,591 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:41:15,313 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:41:15,340 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 106) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:41:15,341 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 106) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@48cc7ef0
+2023-01-27 21:41:15,342 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 106) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:41:15,354 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 106) Stopping cache manager null on null
+2023-01-27 21:41:15,431 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 143ms
+2023-01-27 21:41:15,471 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:41:15,624 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:41:16,345 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:41:16,390 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:41:16,404 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 106) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:41:16,404 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 106) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:41:16,428 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:41:16,480 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:41:16,555 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 106) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:41:16,556 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 106) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:41:16,579 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 106) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:41:16,580 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 106) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:41:16,582 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 106) Envers integration enabled? : true
+2023-01-27 21:41:16,716 INFO  [io.smallrye.metrics] (MSC service thread 1-5) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:41:16,932 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 9) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:41:16,992 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 105) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:41:17,052 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:42:35,003 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 105) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:42:35,078 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:42:35,078 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 115) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@42bde1e2
+2023-01-27 21:42:35,080 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:42:35,092 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 115) Stopping cache manager null on null
+2023-01-27 21:42:35,122 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 124ms
+2023-01-27 21:42:35,168 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:42:35,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:42:35,770 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:42:35,806 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:42:35,844 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:42:35,844 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 115) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:42:35,857 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:42:35,898 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:42:35,961 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 115) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:42:35,963 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 115) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:42:35,982 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 115) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:42:35,983 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 115) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:42:35,985 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 115) Envers integration enabled? : true
+2023-01-27 21:42:36,110 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:42:36,204 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 6) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:42:36,251 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 114) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:42:36,288 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:43:46,445 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 117) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:43:46,482 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:43:46,483 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 119) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@778d11b7
+2023-01-27 21:43:46,484 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:43:46,496 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 119) Stopping cache manager null on null
+2023-01-27 21:43:46,512 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 78ms
+2023-01-27 21:43:46,552 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:43:46,651 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:43:47,185 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:43:47,230 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:43:47,248 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 122) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:43:47,249 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 122) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:43:47,292 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:43:47,348 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:43:47,440 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 122) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:43:47,441 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 122) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:43:47,462 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 122) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:43:47,462 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 122) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:43:47,465 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 122) Envers integration enabled? : true
+2023-01-27 21:43:47,569 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:43:47,690 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 2) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:43:47,736 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 120) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:43:47,776 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:48:21,141 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 122) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:48:21,171 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 126) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:48:21,172 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 126) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@16c5f21a
+2023-01-27 21:48:21,173 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 126) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:48:21,184 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 126) Stopping cache manager null on null
+2023-01-27 21:48:21,211 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 73ms
+2023-01-27 21:48:21,262 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:48:21,388 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:48:21,863 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:48:21,909 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:48:21,918 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:48:21,919 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 128) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:48:21,956 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:48:21,999 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:48:22,073 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:48:22,075 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 128) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:48:22,095 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 128) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:48:22,096 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 128) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:48:22,114 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 128) Envers integration enabled? : true
+2023-01-27 21:48:22,198 INFO  [io.smallrye.metrics] (MSC service thread 1-3) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:48:22,300 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 2) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:48:22,349 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 125) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:48:22,388 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:49:18,054 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 129) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:49:18,110 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 133) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:49:18,110 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 133) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@37eea214
+2023-01-27 21:49:18,114 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 133) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:49:18,120 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 133) Stopping cache manager null on null
+2023-01-27 21:49:18,135 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 85ms
+2023-01-27 21:49:18,180 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:49:18,287 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:49:18,740 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:49:18,787 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:49:18,801 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 132) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:49:18,802 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 132) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:49:18,834 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:49:18,872 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:49:18,948 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 132) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:49:18,950 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 132) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:49:18,980 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 132) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:49:18,980 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 132) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:49:18,982 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 132) Envers integration enabled? : true
+2023-01-27 21:49:19,105 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:49:19,225 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 7) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:49:19,267 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 133) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:49:19,307 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:53:02,687 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 134) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:53:02,724 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 135) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:53:02,724 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 135) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@58dfcad6
+2023-01-27 21:53:02,725 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 135) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:53:02,756 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 135) Stopping cache manager null on null
+2023-01-27 21:53:02,764 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 90ms
+2023-01-27 21:53:02,822 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:53:02,932 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:53:03,353 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:53:03,393 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:53:03,405 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 138) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:53:03,406 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 138) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:53:03,433 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:53:03,478 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:53:03,564 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 138) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:53:03,565 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 138) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:53:03,584 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 138) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:53:03,584 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 138) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:53:03,586 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 138) Envers integration enabled? : true
+2023-01-27 21:53:03,677 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:53:03,751 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 9) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:53:03,794 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 137) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:53:03,832 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:54:35,775 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 140) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:54:35,841 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 145) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:54:35,841 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 145) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@376a6a2f
+2023-01-27 21:54:35,843 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 145) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:54:35,849 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 145) Stopping cache manager null on null
+2023-01-27 21:54:35,871 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 120ms
+2023-01-27 21:54:35,917 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:54:36,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:54:36,431 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:54:36,466 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:54:36,469 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 145) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:54:36,469 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 145) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:54:36,501 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:54:36,550 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:54:36,596 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 145) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:54:36,597 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 145) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:54:36,618 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 145) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:54:36,619 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 145) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:54:36,620 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 145) Envers integration enabled? : true
+2023-01-27 21:54:36,705 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:54:36,778 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 4) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:54:36,818 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 144) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:54:36,853 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:55:46,545 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 146) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:55:46,578 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 148) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:55:46,579 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 148) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@474dae8f
+2023-01-27 21:55:46,581 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 148) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:55:46,594 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 148) Stopping cache manager null on null
+2023-01-27 21:55:46,622 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 80ms
+2023-01-27 21:55:46,660 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:55:46,779 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:55:47,218 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:55:47,263 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:55:47,276 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 152) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:55:47,276 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 152) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:55:47,293 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:55:47,327 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:55:47,381 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 152) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:55:47,382 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 152) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:55:47,401 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 152) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:55:47,402 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 152) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:55:47,403 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 152) Envers integration enabled? : true
+2023-01-27 21:55:47,473 INFO  [io.smallrye.metrics] (MSC service thread 1-5) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:55:47,534 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 2) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:55:47,588 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 151) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:55:47,629 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 21:57:44,239 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 151) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 21:57:44,279 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 159) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:57:44,279 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 159) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@52a02ac6
+2023-01-27 21:57:44,281 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 159) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:57:44,294 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 159) Stopping cache manager null on null
+2023-01-27 21:57:44,308 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 70ms
+2023-01-27 21:57:44,341 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:57:44,448 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 21:57:44,963 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 21:57:45,002 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 21:57:45,010 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 156) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:57:45,011 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 156) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 21:57:45,034 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 21:57:45,083 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 21:57:45,156 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 156) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 21:57:45,157 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 156) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 21:57:45,178 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 156) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 21:57:45,178 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 156) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 21:57:45,180 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 156) Envers integration enabled? : true
+2023-01-27 21:57:45,272 INFO  [io.smallrye.metrics] (MSC service thread 1-5) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 21:57:45,345 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 6) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 21:57:45,379 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 155) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 21:57:45,421 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 22:00:15,336 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 161) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 22:00:15,357 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 165) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:00:15,358 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 165) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@2663f5c
+2023-01-27 22:00:15,360 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 165) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:00:15,370 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 165) Stopping cache manager null on null
+2023-01-27 22:00:15,415 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 83ms
+2023-01-27 22:00:15,462 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:00:15,735 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:00:16,302 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 22:00:16,342 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 22:00:16,348 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 165) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:00:16,348 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 165) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 22:00:16,382 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 22:00:16,424 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 22:00:16,493 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 165) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:00:16,494 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 165) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 22:00:16,514 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 165) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 22:00:16,514 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 165) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 22:00:16,516 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 165) Envers integration enabled? : true
+2023-01-27 22:00:16,586 INFO  [io.smallrye.metrics] (MSC service thread 1-1) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 22:00:16,652 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 3) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 22:00:16,692 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 164) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 22:00:16,733 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 22:01:48,174 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 167) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 22:01:48,220 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 169) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:01:48,224 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 169) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@3477719c
+2023-01-27 22:01:48,226 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 169) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:01:48,245 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 169) Stopping cache manager null on null
+2023-01-27 22:01:48,282 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 112ms
+2023-01-27 22:01:48,345 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:01:48,552 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:01:49,327 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 22:01:49,388 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 22:01:49,408 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 170) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:01:49,408 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 170) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 22:01:49,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 22:01:49,543 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 22:01:49,663 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 170) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:01:49,664 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 170) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 22:01:49,695 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 170) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 22:01:49,695 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 170) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 22:01:49,698 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 170) Envers integration enabled? : true
+2023-01-27 22:01:49,866 INFO  [io.smallrye.metrics] (MSC service thread 1-3) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 22:01:49,972 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 6) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 22:01:50,091 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 173) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 22:01:50,158 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 22:03:37,032 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 173) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 22:03:37,108 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:03:37,109 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 179) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@773d1159
+2023-01-27 22:03:37,110 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:03:37,146 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 179) Stopping cache manager null on null
+2023-01-27 22:03:37,164 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 136ms
+2023-01-27 22:03:37,208 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:03:37,360 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:03:37,888 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 22:03:37,951 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 22:03:37,970 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:03:37,970 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 179) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 22:03:38,024 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 22:03:38,114 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 22:03:38,221 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:03:38,224 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 179) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 22:03:38,250 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 179) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 22:03:38,251 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 179) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 22:03:38,255 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 179) Envers integration enabled? : true
+2023-01-27 22:03:38,359 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 22:03:38,476 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 6) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 22:03:38,543 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 180) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 22:03:38,590 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 22:05:44,897 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 178) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 22:05:44,931 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 182) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:05:44,933 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 182) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5873fada
+2023-01-27 22:05:44,936 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 182) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:05:45,000 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 182) Stopping cache manager null on null
+2023-01-27 22:05:45,018 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 130ms
+2023-01-27 22:05:45,065 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:05:45,211 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:05:45,752 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 22:05:45,791 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 22:05:45,797 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 181) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:05:45,798 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 181) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 22:05:45,838 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 22:05:45,887 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 22:05:45,994 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 181) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:05:45,995 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 181) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 22:05:46,028 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 181) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 22:05:46,028 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 181) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 22:05:46,031 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 181) Envers integration enabled? : true
+2023-01-27 22:05:46,150 INFO  [io.smallrye.metrics] (MSC service thread 1-3) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 22:05:46,240 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 9) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 22:05:46,289 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 185) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 22:05:46,347 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 22:06:48,965 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 185) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 22:06:49,013 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 190) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:06:49,014 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 190) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6ccc2390
+2023-01-27 22:06:49,016 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 190) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:06:49,030 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 190) Stopping cache manager null on null
+2023-01-27 22:06:49,057 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 95ms
+2023-01-27 22:06:49,116 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:06:49,223 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "DiplomaProject.war" (runtime-name: "DiplomaProject.war")
+2023-01-27 22:06:49,850 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for myUnit
+2023-01-27 22:06:49,895 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment DiplomaProject.war
+2023-01-27 22:06:49,905 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 194) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:06:49,906 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 194) HHH000204: Processing PersistenceUnitInfo [
+	name: myUnit
+	...]
+2023-01-27 22:06:49,942 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'JavaBean' in deployment unit 'deployment "DiplomaProject.war"' are as follows:
+
+	java:global/DiplomaProject/JavaBean!JavaBean
+	java:app/DiplomaProject/JavaBean!JavaBean
+	java:module/JavaBean!JavaBean
+	java:global/DiplomaProject/JavaBean
+	java:app/DiplomaProject/JavaBean
+	java:module/JavaBean
+
+2023-01-27 22:06:49,998 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-01-27 22:06:50,074 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 194) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:06:50,075 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 194) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-01-27 22:06:50,098 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 194) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2023-01-27 22:06:50,098 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 194) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6798527f
+2023-01-27 22:06:50,100 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 194) Envers integration enabled? : true
+2023-01-27 22:06:50,206 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2023-01-27 22:06:50,299 INFO  [org.jboss.weld.Bean] (Weld Thread Pool -- 4) WELD-001571: Proxy for class JavaBean created in org.jboss.weld.proxies because the class package is null.
+2023-01-27 22:06:50,373 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 191) WFLYUT0021: Registered web context: '/DiplomaProject' for server 'default-server'
+2023-01-27 22:06:50,471 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "DiplomaProject.war" (runtime-name : "DiplomaProject.war")
+2023-01-27 22:08:36,016 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2023-01-27 22:08:36,018 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: EJB subsystem suspension complete
+2023-01-27 22:08:36,028 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-01-27 22:08:36,037 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 195) WFLYUT0022: Unregistered web context: '/DiplomaProject' from server 'default-server'
+2023-01-27 22:08:36,075 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-01-27 22:08:36,087 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2023-01-27 22:08:36,092 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-01-27 22:08:36,093 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 200) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:08:36,093 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 200) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@63db0c14
+2023-01-27 22:08:36,098 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 201) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'DiplomaProject.war#myUnit'
+2023-01-27 22:08:36,104 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/PostgresDS]
+2023-01-27 22:08:36,107 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 200) Stopping cache manager null on null
+2023-01-27 22:08:36,108 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-01-27 22:08:36,119 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-42.5.1.jar
+2023-01-27 22:08:36,152 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-01-27 22:08:36,155 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-01-27 22:08:36,155 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment postgresql-42.5.1.jar (runtime-name: postgresql-42.5.1.jar) in 105ms
+2023-01-27 22:08:36,161 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment DiplomaProject.war (runtime-name: DiplomaProject.war) in 110ms
+2023-01-27 22:08:36,219 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2023-01-27 22:08:36,219 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-01-27 22:08:36,222 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 196) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-01-27 22:08:36,223 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.2.2.Final stopping
+2023-01-27 22:08:36,229 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 201) Stopping cache manager null on null
+2023-01-27 22:08:36,241 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) stopped in 199ms

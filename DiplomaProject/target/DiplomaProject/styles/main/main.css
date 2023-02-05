@@ -1,0 +1,70 @@
+:root {
+    --color1: #645CAA;
+}
+:root{
+    --сolor2: #A084CA;
+}
+:root{
+    --сolor3: #BFACE0;
+}
+:root{
+    --сolor4: #EBC7E8;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #eee;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+#header {
+    height: 10vh;
+    background:var(--сolor2);
+}
+
+.exit-button{
+    padding-top: 1.25%;
+    text-align: right;
+}
+
+#menu {
+    max-width: 600px;
+    min-width: 300px;
+    width: 15%;
+    float:left;
+    display: block;
+}
+
+#content {
+    width: 85%;
+    float:left;
+    display: block;
+}
+
+.splitter {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+#separator {
+    cursor: col-resize;
+    background-color: var(--сolor4);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5px;
+    height: 90vh;
+
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
